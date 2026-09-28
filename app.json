@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Phoenix Malls",
+    "slug": "phoenix-malls",
+    "scheme": "phoenixmalls",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +11,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.phoenixmalls.explore",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
