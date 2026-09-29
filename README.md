@@ -19,6 +19,17 @@ yarn start
 
 Press `a` in the Expo CLI to open an Android emulator, or scan the QR code with Expo Go. For a local Android build, run `yarn expo run:android`.
 
+## Build an installable APK with EAS
+
+The `production` EAS profile is configured to produce an installable APK for direct distribution (it does not upload to Google Play). After signing in to Expo, run:
+
+```sh
+yarn global add eas-cli
+eas build --platform android --profile production
+```
+
+When the cloud build finishes, download the APK from the build URL printed by EAS or from the Expo dashboard.
+
 ## Checks
 
 ```sh
