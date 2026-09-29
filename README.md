@@ -5,7 +5,7 @@ Standalone Expo React Native application for discovering Phoenix Malls on an int
 ## Requirements
 
 - Node.js 22 or later
-- npm
+- Yarn 1.22 or later
 - Expo Go or an Android emulator for development; an Android SDK for local native builds
 
 ## Install and run
@@ -13,17 +13,17 @@ Standalone Expo React Native application for discovering Phoenix Malls on an int
 From this directory:
 
 ```sh
-npm install
-npm start
+yarn install
+yarn start
 ```
 
-Press `a` in the Expo CLI to open an Android emulator, or scan the QR code with Expo Go. For a local Android build, run `npx expo run:android`.
+Press `a` in the Expo CLI to open an Android emulator, or scan the QR code with Expo Go. For a local Android build, run `yarn expo run:android`.
 
 ## Checks
 
 ```sh
-npm test
-npm run typecheck
+yarn test
+yarn typecheck
 ```
 
 ## Structure
