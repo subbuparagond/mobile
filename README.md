@@ -2,6 +2,12 @@
 
 An Expo and React Native app for exploring Phoenix Malls in India. Start with the map, choose a mall marker, and see its current local opening status, hours, address, and contact options. The app also includes mall search, open/closed filters, a nearby-mall action, and a destination list that stays in sync with the map.
 
+## Project links
+
+- **Web application:** [Open the live web app](https://web-five-gamma-21.vercel.app/)
+- **Android app:** [Download the APK](https://drive.google.com/file/d/1eaGxZntxvla7QhpMufvYdRn57mf53rpm/view?usp=sharing)
+- **GitHub:** [Web repository](https://github.com/subbuparagond/web) · [Android repository](https://github.com/subbuparagond/mobile)
+
 ## Requirements
 
 - Node.js 22 or later
